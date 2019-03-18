@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "outDir": "dist",
+        "module": "system",
+        "alwaysStrict": true,
+        "noImplicitAny": true,
+        "removeComments": true
+    },
+    "include": ["src/ts/**/*"],
+    "exclude": ["**/*.spec.ts"]
+}

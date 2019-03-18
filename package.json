@@ -1,0 +1,27 @@
+{
+  "name": "popoutplayer",
+  "version": "1.0.0",
+  "description": "Chrome Extension for PiP mode",
+  "main": "code.js",
+  "dependencies": {
+    "@types/chrome": "0.0.77"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Julian-Alberts/Chrome-Popout-Player.git"
+  },
+  "keywords": [
+    "Chrome",
+    "Extension"
+  ],
+  "author": "Julian Alberts",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/Julian-Alberts/Chrome-Popout-Player/issues"
+  },
+  "homepage": "https://github.com/Julian-Alberts/Chrome-Popout-Player#readme"
+}

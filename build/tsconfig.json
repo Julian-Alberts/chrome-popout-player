@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "outDir": ".",
+        "module": "commonjs",
+        "alwaysStrict": true,
+        "noImplicitAny": true,
+        "removeComments": true,
+    },
+    "include": ["src/**/*"],
+    "exclude": ["**/*.spec.ts"]
+}
