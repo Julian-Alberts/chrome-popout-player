@@ -9,12 +9,17 @@ class VideoElement {
         }
     }
 
-    public tryOpenPictureInPicture() {
+    public async tryOpenPictureInPicture(): Promise<boolean> {
         if (!this._isPiP) {
-            this.videoElement.requestPictureInPicture().then(() => {
+            try {
+                await this.videoElement.requestPictureInPicture()
                 this._isPiP = true;
-            })
+            } catch (e) {
+                return false;
+            }
+            return true;
         }
+        return true;
     }
 
     public closePictureInPicture() {
@@ -35,6 +40,10 @@ class VideoElement {
 
     public onLeavePictureInPicture() {
         this._isPiP = false;
+    }
+
+    public isPipActive(): boolean {
+        return this._isPiP;
     }
 
 }

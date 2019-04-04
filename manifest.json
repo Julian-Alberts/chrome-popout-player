@@ -20,6 +20,11 @@
             "js": ["twitch-script.js"]
         },
         {
+            "matches": ["https://player.twitch.tv/*"],
+            "js": ["twitch-script.js"],
+            "all_frames": true
+        },
+        {
             "matches": ["https://emb.d.tube/*"],
             "js": ["dtube-script.js"],
             "all_frames": true
