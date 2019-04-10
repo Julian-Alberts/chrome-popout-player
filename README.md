@@ -2,8 +2,8 @@
 Since Version 70 Google Chrome supportes Picure in Picture Mode for the HTML 5 video element. This small extension enables you to access this feature through a simple click on a newly added button.
 
 ## Currently supported platforms
-Platform|IFrame support|Since version|IFrame support since version
--|-|-|-
+Platform|IFrame support
+-|-
 [d.tube](https://d.tube)| :heavy_check_mark: 
 [netflix.com](https://netflix.com)| :x: 
 [twitch.tv](https://twitch.tv)| :heavy_check_mark:
