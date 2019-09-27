@@ -7,7 +7,6 @@
             "matches": [
                 "https://emb.d.tube/*",
                 "https://player.twitch.tv/*",
-                "https://www.netflix.com/*",
                 "https://www.twitch.tv/*",
                 "https://www.youtube.com/*",
                 "https://www.youtube.com/embed/*"
@@ -23,10 +22,6 @@
             "matches": ["https://www.youtube.com/embed/*"],
             "js": ["youtube-script.js"],
             "all_frames": true
-        },
-        {
-            "matches": ["https://www.netflix.com/*"],
-            "js": ["netflix-script.js"]
         },
         {
             "matches": ["https://www.twitch.tv/*"],
