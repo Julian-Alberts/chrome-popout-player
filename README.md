@@ -5,7 +5,6 @@ Since Version 70 Google Chrome supportes Picure in Picture Mode for the HTML 5 v
 Platform|IFrame support
 -|-
 [d.tube](https://d.tube)| :heavy_check_mark: 
-[netflix.com](https://netflix.com)| :x: 
 [twitch.tv](https://twitch.tv)| :heavy_check_mark:
 [youtube.com](https://youtube.com)| :heavy_check_mark:
 
@@ -24,5 +23,8 @@ Comming soon
 Feel free to create merge request to add new platforms to the list. Please keep in mind that only family friendly pages will be supported by this plugin.
 
 ## Building
-Before you can build a new version of this plugin you have to compile the build script under ./build with `tsc`. When you have cumpiled this script you can run `node build/build.js` from the project root. The new Version will be available under ./bin 
+
+### Linux / macOS
+Run build/build.sh
+
 
