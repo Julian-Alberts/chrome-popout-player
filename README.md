@@ -17,7 +17,7 @@ Platform|IFrame support
 1. Select the bin/ folder in the repository. Should there not be an bin/ folder continue reading under Contributing > Building.
 
 ## Chrome web store
-Comming soon
+Comming soon&trade;
 
 # Contributing
 Feel free to create merge request to add new platforms to the list. Please keep in mind that only family friendly pages will be supported by this plugin.
